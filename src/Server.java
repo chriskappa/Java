@@ -43,5 +43,6 @@ public class Server {
         ServerSocket serverSocket = new ServerSocket(8818);
         Server server = new Server(serverSocket);
         server.runServer();
+
     }
 }
